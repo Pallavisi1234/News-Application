@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".PrernaActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRERNA PANDEY"
+        android:textSize="30sp"
+        android:layout_margin="12dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="345dp"-->
+    <!--        android:orientation="vertical">-->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:layout_width="293dp"
+        android:layout_height="400dp"
+        android:layout_gravity=""
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="34dp"
+        android:src="@drawable/prerna"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="410dp"
+            android:text=" Prerna Pandey"
+            android:textSize="29dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:textColor="@color/black"
+            android:text=" Android Developer-Web Developer"
+            android:textSize="20dp"
+
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="578dp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/prerinsta"
+            android:layout_width="95dp"
+            android:layout_height="76dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="500dp"
+            android:src="@drawable/insta" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="512dp"
+            android:text="  OR  "
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/prermail"
+            android:layout_width="65dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/mail" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+

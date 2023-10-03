@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nav_logout" type="id" />
+    <item name="blog" type="id" />
+    <item name="ibVideo" type="id" />
+    <item name="contact" type="id" />
+    <item name="Terms" type="id" />
+</resources>

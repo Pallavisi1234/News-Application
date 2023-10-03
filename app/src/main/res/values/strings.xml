@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyNewsApp</string>
+
+
+    <string name="facebook_app_id">1639744896534723</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+    <string name="already_a_user_signin">Already a user?SignIn</string>
+</resources>
